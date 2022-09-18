@@ -19,6 +19,5 @@ class MainActivity : AppCompatActivity() {
         Intent(applicationContext,MyService::class.java).apply {
             stopService(this)
         }
-
     }
 }
