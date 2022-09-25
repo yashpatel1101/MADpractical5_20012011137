@@ -87,17 +87,15 @@
                         android:src="@drawable/ic_baseline_fast_rewind_24"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"/>
-
                     <com.google.android.material.floatingactionbutton.FloatingActionButton
-                        android:id="@+id/playButton"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:elevation="50dp"
-                        android:onClick="play"
-                        android:src="@drawable/ic_baseline_play_arrow_24"
-                        android:tint="@color/white"
+                        android:id="@+id/btn_play"
+                        app:fabSize="normal"
                         app:borderWidth="0dp"
-                        app:fabSize="normal" />
+                        android:tint="@color/white"
+                        android:elevation="50dp"
+                        android:src="@drawable/ic_baseline_play_arrow_24"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
                     <com.google.android.material.floatingactionbutton.FloatingActionButton
                         android:id="@+id/forwardButton"
                         app:fabSize="mini"
@@ -107,17 +105,15 @@
                         android:src="@drawable/ic_baseline_fast_forward_24"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"/>
-
                     <com.google.android.material.floatingactionbutton.FloatingActionButton
-                        android:id="@+id/stopButton"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:elevation="50dp"
-                        android:onClick="stop"
-                        android:src="@drawable/ic_baseline_stop_24"
-                        android:tint="@color/white"
+                        android:id="@+id/btn_stop"
+                        app:fabSize="mini"
                         app:borderWidth="0dp"
-                        app:fabSize="mini" />
+                        android:tint="@color/white"
+                        android:elevation="50dp"
+                        android:src="@drawable/ic_baseline_stop_24"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
                 </LinearLayout>
 
 
